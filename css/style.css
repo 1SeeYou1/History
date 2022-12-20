@@ -1,0 +1,120 @@
+body{
+    background-color: #FFE5B4; /*устанавливает цвет фона элемента*/
+   font-family: 'Amatic SC', cursive; /* Шрифт*/
+   font-size: 15px;/*Размер шрифта*/
+   line-height: 1,3;/*устанавливает величину пространства между строками*/
+   color: #333;/*устанавливает величину пространства между строками*/
+   margin: 0;/* служит для создания внешнего отступа, то есть отступы будут делаться от элемента*/
+   padding: 0;/*создает внутренние отступы, то есть содержимое элемента будет удаленно от его внутренних границ на указанные значения*/
+
+}
+
+.container {
+    width: 100%; /* Ширина*/
+    margin: 0 auto; /* служит для создания внешнего отступа, то есть отступы будут делаться от элемента*/
+    
+
+}
+.container.main {
+    max-width: 1500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn {
+    border: none; /* границы*/
+    background-color:inherit;
+    padding: 7px 30px;
+    font-size: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.nav{
+    font-size: 17px;
+    font-weight: 500;
+    text-transform:  uppercase;  /*прописные символы*/
+    background-color: #441c0a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+}
+    
+.nav__link{
+    display: inline-block;
+    vertical-align: top; /*выравнивает текст по вертикали*/
+    margin: 0 26px;
+    color: #555555;
+    text-decoration: none; /*подчеркивание текста*/
+    transition: color 0.2s linear;  /*смена цвета при нажатии*/
+} 
+.nav__link.m0 {
+    margin: 0;
+}
+
+.nav__link:hover { /*стиль элемента при его наведении*/
+    color: #f89e17;
+}
+* {box-sizing: border-box;}
+
+
+
+.thumb {font-size: 0;}
+
+.img-item {
+  margin-bottom: 30px;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  padding-left: 180px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.wrap {
+    display: flex;
+}
+.info {
+    margin-left: 90px;
+    width: 800px;
+    padding-bottom: 50px;
+}
+.links {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+}
+.search {
+    margin-left: auto;
+    color: #441c0a;
+    background-color: #ffffff;
+    border-radius: 24px;
+}
+.regions {
+    flex:0 0 auto;
+    
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.end {
+    background-color: #441c0a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.entrance {
+    margin-left: 60px;
+    width: 60px;
+}
+.d1 {border-style: double;}
+.size {
+    border-width: 6px;
+    border-color: saddlebrown;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 50px;
+    text-align: center;
+}
